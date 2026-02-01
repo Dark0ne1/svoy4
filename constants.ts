@@ -2,11 +2,11 @@ import { Waves, Dumbbell, Sparkles, Flame, Users } from "lucide-react";
 import { TechItem, Trainer, NavItem } from "./types";
 
 // --- ИМПОРТЫ ЛОКАЛЬНЫХ КАРТИНОК ---
-import gymImg from "../assets/zal.webp";
-import spaImg from "../assets/spa.avif";
-import cosmetologyImg from "../assets/cosmetology.avif";
-import crossfitImg from "../assets/crossfit.avif";
-import groupImg from "../assets/group.webp";
+import gymImg from "./assets/zal.webp";
+import spaImg from "./assets/spa.avif";
+import cosmetologyImg from "./assets/cosmetology.avif";
+import crossfitImg from "./assets/crossfit.avif";
+import groupImg from "./assets/group.webp";
 
 export const NAV_ITEMS: NavItem[] = [
   { label: "FITNESS", href: "#hero" },
